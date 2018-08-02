@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+instalooter = "*"
+click = "*"
+"jinja2" = "*"
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+mypy = "*"
+"flake8" = "*"
+instablog = {editable = true, path = "."}
+tox = "*"
+
+[requires]
+python_version = "3.6"

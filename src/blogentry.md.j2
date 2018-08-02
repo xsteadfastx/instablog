@@ -1,0 +1,8 @@
+Title: {{ date }} in Bildern
+Date: {{ date }} 00:00
+Tags: instagram, photography
+Slug: {{ date }}-in-bildern
+
+{% for image in images %}
+![{{ date }}]({filename}/images/{{ image }})
+{% endfor %}

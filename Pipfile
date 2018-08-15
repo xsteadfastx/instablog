@@ -7,6 +7,7 @@ name = "pypi"
 instalooter = "*"
 click = "*"
 "jinja2" = "*"
+maya = "*"
 
 [dev-packages]
 pytest = "*"
@@ -15,6 +16,7 @@ mypy = "*"
 "flake8" = "*"
 instablog = {editable = true, path = "."}
 tox = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.6"
